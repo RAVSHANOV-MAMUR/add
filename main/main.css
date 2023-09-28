@@ -287,3 +287,35 @@ li, a{
     line-height: 25px;
     padding: 20px 45px;
 }
+
+.net__info {
+    width: 1280px;
+    height: 120px;
+    flex-shrink: 0; 
+    background: #2C343E; 
+    margin-top: 200px;
+}
+
+.net__img {
+    margin-left: 85px;
+    margin-top: 47px;
+}
+
+.net__item {
+    text-decoration: none;
+}
+
+
+.net__info {
+    display: flex;
+}
+
+.nav__listt {
+    display: flex;
+    margin-top: 50px;
+}
+
+.net__imig {
+    margin-top: 30px;
+    margin-left: 369px;
+}
