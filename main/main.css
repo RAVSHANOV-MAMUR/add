@@ -122,5 +122,168 @@ li, a{
     background: #66D2CF;
     color: white;
     margin-left: 33px;
+}
 
+.user__img {
+    margin-top: 86px;
+    margin-left: 100px;
+}
+
+.user__imag {
+    margin-top: -85px;
+    margin-left: 50px;
+}
+
+.user__h2 {
+    color: #333D4B;
+    font-family: "Fraunces" 9pt;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 32px; 
+    margin-top: 71px;
+    margin-left: 90px;
+}
+
+.user__p {
+    color: #333D4B;
+    font-family: "Barlow";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin-left: 90px;
+}
+
+.user__list {
+    display: flex;
+}
+
+.pop .container {
+    width: 1280px;
+    height: 577px;
+    flex-shrink: 0; 
+    margin-top: 200px;
+    border-radius: 10px;
+    background: #2C343E; 
+}
+
+.pop__h2 {
+    color: #FEFCF7;
+    text-align: center;
+    font-family: "Fraunces" 9pt;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 48px; 
+}
+
+.pop__text {
+    color: #FEFCF7;
+    text-align: center;
+    font-family: "Barlow";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+.card__item {
+    width: 350px;
+    height: 382px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #0E8784;
+}
+  
+.card__list {
+    display: flex;
+    margin-top: -260px;
+    margin-left: 50px;
+}
+  
+.card__item+ .card__item {
+    margin-left: 30px;
+}
+  
+  
+.card__img {
+    margin-left: 129px;
+    margin-top: 72px;
+    text-align: center;
+}
+  
+.card__heading {
+    margin-left: 40px;
+    width: 255px;
+    color: #FEFCF7;
+    text-align: center;
+    font-family: "Fraunces";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 32px; 
+}
+  
+.card__text {
+     /* margin-right: 50px; */
+    color: #FEFCF7;
+    text-align: center;
+    font-family: "Barlow";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; 
+}
+
+.git__h2 {
+    color: #83888F;
+    font-family: "Fraunces" 9pt;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 32px; 
+    margin-top: 200px;
+}
+
+.git__img {
+    margin-top: 100px;
+}
+
+.git__hh2 {
+    color: #333D4B;
+    font-family: "Fraunces" 9pt;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 36px;
+}
+
+.git__text {
+    color: #333D4B;
+    font-family: "Barlow";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.git__list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.button {
+    width: 217px;
+    height: 56px;
+    flex-shrink: 0; 
+    border-radius: 6px;
+    background: #66D2CF; 
+    color: #FEFCF7;
+    text-align: center;
+    font-family: "Fraunces" 9pt;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 25px;
+    padding: 20px 45px;
 }
